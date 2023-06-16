@@ -320,6 +320,7 @@ h3{
         margin-top: 0px;
         display: flex;
         column-gap: 50px;
+        padding:7px;
     }
     h3{
         color:#fff;
