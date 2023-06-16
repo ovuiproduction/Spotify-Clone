@@ -46,8 +46,8 @@ nav ul li{
 }
 .container{
     width:max-content;
-    height:70vh;
-    margin-top: 45px;
+    height:75vh;
+    margin-top:20px;
     margin-left: 100px;
     display: flex;
     align-items: center;
@@ -57,7 +57,7 @@ nav ul li{
 .playstepup{
     width:400px;
     height: 60vh;
-    background-color: rgb(26, 21, 63);
+    background-color:gray;
     border-radius: 20px;
     margin-left: 30px;
 }
@@ -217,7 +217,9 @@ nav ul li{
     font-size: 10px;
     color: #bcb3b3;
 }
-
+h3{
+    color: #fff;
+}
 
 
 @media only screen and (max-width:500px) {
@@ -226,6 +228,7 @@ nav ul li{
         background-color: #090707;
     }
     nav{
+        border: 2px solid rgb(32, 255, 69);
         width:100%;
         height:70px;
     }
@@ -236,11 +239,12 @@ nav ul li{
         display: block;
     }
     .playstepup{
-        background-color: #090707;
-        margin-left: 0px;
+        padding-top:20px;
+        background-color: #85eef1;
+        margin-left:8px;
         border: 2px solid rgb(32, 255, 69);
         height:max-content;
-        width:90vh;
+        width:440px;
     }
     .songlist1{
         width:180px;
@@ -252,22 +256,28 @@ nav ul li{
         height:200px;
     }
     .songposter{
-        width:70vh;
-        /* border: 2px solid white; */
+
+        margin: 0px;
+        padding: 0px;
+        width:400px;
+        border: 2px solid white;
         height:70vh;
         border: none;
+        margin-left:18px;
         border-radius: 30px;
     }
     .songposter img{
-        width:70vh;
+        border: 2px solid white;
+        width:400px;
         border: none;
         height:70vh;
         border-radius: 30px;
     }
     .bottom{
+        border: 2px solid white;
         background-color: none;
         position: fixed;
-        width:100vh;
+        width:480px;
         display: flex;
         bottom: 0px;
         column-gap: 50px;
