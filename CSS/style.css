@@ -228,23 +228,49 @@ h3{
         background-color: #090707;
     }
     nav{
-        border: 2px solid rgb(32, 255, 69);
-        width:100%;
-        height:70px;
+        background-color: rgb(33, 181, 28);
+        margin:0px;
+        display: flex;
+        width:350px;
+        height: 70px;
+        color: #fff;
+    }
+    nav ul{
+        display: flex;
+        column-gap:50px;
+    }
+    nav ul li{
+        list-style: none;
+    }
+    .logo img{
+        margin-top:20px;
+        margin-left: 10px;
+        width: 30px;
+        height: 30px;
+    }
+    .logoname{
+        margin-top:25px;
+        font-size: 20px;
+        font-weight:500;
+        color:rgb(59, 248, 59);
+    
+    }
+
     }
     .container{
+        width: 350px;
         margin-left:0px;
         height: max-content;
-        /* border: 2px solid rgb(205, 70, 70); */
+        border: 2px solid rgb(205, 70, 70);
         display: block;
     }
     .playstepup{
         padding-top:20px;
         background-color: #85eef1;
-        margin-left:8px;
+        margin-left:20px;
         border: 2px solid rgb(32, 255, 69);
         height:max-content;
-        width:440px;
+        width:300px;
     }
     .songlist1{
         width:180px;
@@ -259,25 +285,25 @@ h3{
 
         margin: 0px;
         padding: 0px;
-        width:400px;
+        width:300px;
         border: 2px solid white;
-        height:70vh;
+        height:50vh;
         border: none;
         margin-left:18px;
         border-radius: 30px;
     }
     .songposter img{
         border: 2px solid white;
-        width:400px;
+        width:250px;
         border: none;
-        height:70vh;
+        height:50vh;
         border-radius: 30px;
     }
     .bottom{
         border: 2px solid white;
         background-color: none;
         position: fixed;
-        width:480px;
+        width:350px;
         display: flex;
         bottom: 0px;
         column-gap: 50px;
@@ -293,9 +319,21 @@ h3{
         margin-top: 20px;
     }
     .songlist{
+        border: 2px solid white;
+        width: 330px;
         height: max-content;
+    }
+    .songlist1{
+        border: 2px solid white;
+        width: 350px;
+        height: max-content;
+    }
+    .songlist1 img{
+        border: 2px solid white;
+        width:150px;
+        height:200px;
     }
     .songs{
         height: max-content;
     }
-  }
+  
