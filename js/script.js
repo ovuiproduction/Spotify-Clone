@@ -49,16 +49,34 @@ function updateprogressbar()
 {
     progress = parseInt((audioElement.currentTime/audioElement.duration)*100);
     myprogressbar.value = progress;
-    console.log(progress);
 
     if(progress == 100){
         setTimeout(updateplaysetup , 200);
         function updateplaysetup(){
         myprogressbar.value = 0;
-        masterplay.innerHTML = "";
-        masterplay.innerHTML = `<img  class="play" src="images/play-logo.png" alt="play">`;
-        playgif.style.opacity = 0;
+        songindex = songindex+1;
+        if(songindex>=5){
+            songindex = 1;
+            audioElement.src = songs[songindex-1].filePath;
+            masterplaysong.innerHTML = "";
+            masterplaysong.innerHTML = songs[songindex-1].songName;
+            audioElement.currentTime =0;
+            playgif.style.opacity = 1;
+            masterplay.innerHTML = "";
+            masterplay.innerHTML = `<img  class="play" src="images/pause-logo.png" alt="play">`;
+            mastersongposter.innerHTML = `<img  class="songimage" src="${songs[songindex-1].coverPath}" alt="songimage">`;
+            audioElement.play();
+        }else{
+        audioElement.src = songs[songindex-1].filePath;
         masterplaysong.innerHTML = "";
+        masterplaysong.innerHTML = songs[songindex-1].songName;
+        audioElement.currentTime =0;
+        playgif.style.opacity = 1;
+        masterplay.innerHTML = "";
+        masterplay.innerHTML = `<img  class="play" src="images/pause-logo.png" alt="play">`;
+        mastersongposter.innerHTML = `<img  class="songimage" src="${songs[songindex-1].coverPath}" alt="songimage">`;
+        audioElement.play();
+        }
         }
     }
 }
