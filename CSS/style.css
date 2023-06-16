@@ -231,14 +231,14 @@ h3{
     .maincontainer{
         overflow: scroll;
         margin-top:70px;
-        height:500px;
+        height:550px;
         width: 350px;
         /* border: 3px solid rgb(101, 70, 205); */
     }
     nav{
         position:fixed;
         top: 0px;
-        background-color: rgb(33, 181, 28);
+/*         background-color: rgb(33, 181, 28); */
         margin:0px;
         display: flex;
         width:350px;
@@ -248,14 +248,14 @@ h3{
     .music{
         margin-top:25px;
         margin-left:30px;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         color: rgb(241, 246, 241);
     }
     .event{
         margin-top:25px;
         margin-left:50px;
-        font-size: 20px;
+        font-size: 15px;
         font-weight: 400;
         color: rgb(241, 246, 241);
     }
@@ -282,12 +282,19 @@ h3{
     }
     .playstepup{
         padding-top:20px;
-        background-color: #85eef1;
+        background-color:gray;
         margin-left:20px;
         /* border: 2px solid rgb(32, 255, 69); */
         height:max-content;
-        width:300px;
+        width:295px;
     }
+    .songname{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-left: 10px;
+}
     .songposter{
         margin: 0px;
         padding: 0px;
