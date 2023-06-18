@@ -231,7 +231,7 @@ h3{
     }
     .maincontainer{
         margin-top:70px;
-        height:590px;
+        height:595px;
         width: 350px;
         /* border: 3px solid rgb(101, 70, 205); */
     }
@@ -274,7 +274,7 @@ h3{
 
     .container{
         overflow-y:scroll;
-        height:588px;
+        height:590px;
         width: 350px;
         margin-left:0px;
         display: block;
@@ -322,8 +322,13 @@ h3{
         width:350px;
         margin-top: 0px;
         display: flex;
-        column-gap: 50px;
     }
+    .homelogo img{
+    cursor: pointer;
+    width:20px;
+    height: 20px;
+     margin-left:50px;
+   }
     h3{
         color:#fff;
         margin-top: 50px;
