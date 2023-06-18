@@ -283,7 +283,7 @@ h3{
     }
     .playstepup{
         padding-top:20px;
-        background-color: #85eef1;
+        background-color: gray;
         margin-left:20px;
         /* border: 2px solid rgb(32, 255, 69); */
         height:max-content;
