@@ -51,7 +51,7 @@ nav ul li{
     margin-left: 100px;
     display: flex;
     align-items: center;
-    border: 2px solid black;
+    border: 2px solid rgb(255, 254, 254);
     border-radius: 10px;
 }
 .playstepup{
@@ -231,14 +231,14 @@ h3{
     .maincontainer{
         overflow: scroll;
         margin-top:70px;
-        height:575px;
+        height:550px;
         width: 350px;
         /* border: 3px solid rgb(101, 70, 205); */
     }
     nav{
         position:fixed;
         top: 0px;
-/*         background-color: rgb(33, 181, 28); */
+        background-color: rgb(33, 181, 28);
         margin:0px;
         display: flex;
         width:350px;
@@ -248,14 +248,14 @@ h3{
     .music{
         margin-top:25px;
         margin-left:30px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 400;
         color: rgb(241, 246, 241);
     }
     .event{
         margin-top:25px;
         margin-left:50px;
-        font-size: 15px;
+        font-size: 20px;
         font-weight: 400;
         color: rgb(241, 246, 241);
     }
@@ -274,27 +274,30 @@ h3{
     }
 
     .container{
-        /* height:500px;
-        width: 350px; */
+        overflow-y:scroll;
+        height:500px;
+        width: 350px;
         margin-left:0px;
-        /* border: 2px solid rgb(205, 70, 70); */
         display: block;
+        border: none;
     }
     .playstepup{
         padding-top:20px;
-        background-color:gray;
+        background-color: #85eef1;
         margin-left:20px;
         /* border: 2px solid rgb(32, 255, 69); */
         height:max-content;
-        width:295px;
+        width:300px;
     }
-    .songname{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 0px;
-    margin-left: 10px;
-}
+    .playlist{
+        width:330px;
+        height: 70vh;
+        /* overflow-x: scroll; */
+        /* background-color:black; */
+        border-radius: 20px;
+        margin-left:100px;
+        top: 0px;
+    }
     .songposter{
         margin: 0px;
         padding: 0px;
@@ -320,11 +323,11 @@ h3{
         margin-top: 0px;
         display: flex;
         column-gap: 50px;
-        padding:7px;
     }
     h3{
         color:#fff;
         margin-top: 50px;
+        margin-left: 20px;
     }
     .playlist{
         margin-left: 0px;
@@ -362,6 +365,7 @@ h3{
         color: #bcb3b3;
     }
     .songs{
+        overflow-x: scroll;
         height: max-content;
     }
 }
