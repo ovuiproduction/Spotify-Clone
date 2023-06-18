@@ -322,12 +322,12 @@ h3{
         width:350px;
         margin-top: 0px;
         display: flex;
+        column-gap:50px;
     }
     .homelogo img{
     cursor: pointer;
     width:20px;
     height: 20px;
-     margin-left:50px;
    }
     h3{
         color:#fff;
