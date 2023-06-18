@@ -325,7 +325,8 @@ h3{
         column-gap: 50px;
     }
     h3{
-        color:#fff;
+/*         color:#fff; */
+        color:green;
         margin-top: 50px;
         margin-left: 20px;
     }
