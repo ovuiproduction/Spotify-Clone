@@ -54,8 +54,6 @@ nav ul li{
     margin-left: 100px;
     display: flex;
     align-items: center;
-/*     border: 2px solid rgb(255, 254, 254); */
-    border-radius: 10px;
 }
 .playstepup{
     width:400px;
@@ -232,7 +230,6 @@ h3{
         background-color: #090707;
     }
     .maincontainer{
-/*         overflow: scroll; */
         margin-top:70px;
         height:550px;
         width: 350px;
@@ -241,7 +238,6 @@ h3{
     nav{
         position:fixed;
         top: 0px;
-        background-color: rgb(33, 181, 28);
         margin:0px;
         display: flex;
         width:350px;
@@ -291,6 +287,7 @@ h3{
         /* border: 2px solid rgb(32, 255, 69); */
         height:max-content;
         width:300px;
+        margin-top:30px;
     }
     .playlist{
         width:330px;
