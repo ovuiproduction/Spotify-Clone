@@ -1,2 +1,2 @@
-# Spotify_Clone.github.io
+# Spotify Clone
 this project is only for learning purpose
